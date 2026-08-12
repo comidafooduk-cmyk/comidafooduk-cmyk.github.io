@@ -25,59 +25,119 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="date">Last updated: March 16, 2026</p>
+  <p class="date">Effective date: 12 August 2026</p>
 
-  <p>Comida ("we", "our", or "the app") is a meal planning and food tracking application. This Privacy Policy explains how we collect, use, and protect your information.</p>
+  <h2>1. Who We Are</h2>
+  <p>Comida ("we", "us", or "our") is a recipe and meal planning mobile application designed for university students in the United Kingdom. This Privacy Policy explains how we collect, use, store, and protect your personal data when you use our app on iOS or Android.</p>
+  <p>We are committed to protecting your privacy and complying with the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.</p>
 
-  <h2>Information We Collect</h2>
-  <p>When you use Comida, we collect the following information:</p>
+  <h2>2. Data We Collect</h2>
+  <p>We collect the following categories of personal data:</p>
   <ul>
-    <li><strong>Account Information:</strong> Your email address and a unique user ID, used to create and manage your account via Firebase Authentication.</li>
-    <li><strong>User-Generated Content:</strong> Meals you create, meal plans, shopping lists, saved recipes, and meal folders. This data is stored in Google Firestore and synced across your devices.</li>
-    <li><strong>Photos:</strong> If you choose to add photos to your meals, images are stored securely. Photos are only accessed with your explicit permission.</li>
-    <li><strong>Crash Data:</strong> Anonymous crash reports collected via Firebase Crashlytics to help us fix bugs and improve app stability. These are not linked to your identity.</li>
-    <li><strong>Device Identifiers:</strong> Anonymous device identifiers used by Firebase for crash reporting. These are not used for tracking or advertising.</li>
+    <li><strong>Account information:</strong> your name and email address, provided when you create an account, together with a unique user ID.</li>
+    <li><strong>Saved recipes and meal plans:</strong> recipes you save, meals you create, meal plans, shopping lists, and meal folders. Where you choose to add an image to a meal, this is a web address you supply; the app does not access your device's photo library or camera.</li>
+    <li><strong>Usage analytics:</strong> anonymised data about how you interact with the app, including screens visited, features used, and session duration.</li>
+    <li><strong>Device identifiers:</strong> advertising identifiers (IDFA on iOS, Advertising ID on Android) used to serve ads, subject to your consent.</li>
+    <li><strong>Crash and diagnostic data:</strong> anonymous crash reports and diagnostic information collected via Firebase Crashlytics to help us fix bugs and improve stability.</li>
+  </ul>
+  <p>We do not collect sensitive personal data such as health information, racial or ethnic origin, political opinions, or biometric data.</p>
+
+  <h2>3. How We Use Your Data</h2>
+  <p>We use your personal data for the following purposes:</p>
+  <ul>
+    <li>To create and manage your account</li>
+    <li>To save your recipes, meal plans, and shopping lists so they are available across sessions and devices</li>
+    <li>To improve the app through anonymised usage analytics</li>
+    <li>To diagnose crashes and improve app stability and performance</li>
+    <li>To serve advertisements, including personalised ads where you have given consent</li>
+    <li>To communicate with you about your account or respond to support requests</li>
+    <li>To comply with legal obligations</li>
   </ul>
 
-  <h2>How We Use Your Information</h2>
+  <h2>4. Legal Basis for Processing</h2>
+  <p>We process your data under the following legal bases:</p>
   <ul>
-    <li>To provide and maintain the app's core functionality (meal planning, shopping lists, recipes)</li>
-    <li>To sync your data across devices</li>
-    <li>To authenticate your identity and secure your account</li>
-    <li>To diagnose crashes and improve app performance</li>
-    <li>To display advertisements to non-premium users (via Google AdMob)</li>
+    <li><strong>Contract:</strong> processing necessary to provide you with the app and its features (e.g. account creation, saving recipes)</li>
+    <li><strong>Consent:</strong> processing of advertising identifiers and serving personalised ads, which you can grant or withdraw at any time</li>
+    <li><strong>Legitimate interests:</strong> anonymised analytics and crash diagnostics to improve the app experience</li>
   </ul>
 
-  <h2>Advertising</h2>
-  <p>Comida displays ads to non-premium users through Google AdMob. AdMob may use device identifiers and general location data to serve relevant ads. You can upgrade to premium to remove all advertisements. We do not sell your personal data to advertisers.</p>
-
-  <h2>Data Storage and Security</h2>
-  <p>Your data is stored securely using Google Firebase services (Authentication, Firestore, Crashlytics). Data is transmitted over encrypted connections (HTTPS/TLS). We also cache your data locally on your device using AsyncStorage for offline access.</p>
-
-  <h2>Data Sharing</h2>
-  <p>We do not sell, trade, or share your personal information with third parties, except:</p>
+  <h2>5. Third-Party Services</h2>
+  <p>We use the following third-party services that may process your data:</p>
   <ul>
-    <li><strong>Firebase/Google:</strong> For authentication, data storage, and crash reporting</li>
-    <li><strong>Google AdMob:</strong> For serving advertisements to non-premium users</li>
-    <li><strong>Legal Requirements:</strong> If required by law or to protect our rights</li>
+    <li><strong>Firebase Authentication (Google LLC):</strong> to securely manage user accounts and sign-in. Data processed: email address, authentication tokens</li>
+    <li><strong>Firebase Cloud Firestore (Google LLC):</strong> to store your saved recipes, meal plans, and account preferences. Data processed: account data, user-generated content</li>
+    <li><strong>Firebase Crashlytics (Google LLC):</strong> to collect anonymous crash and diagnostic reports. Data processed: crash traces, device model, operating system version, and an anonymous installation identifier</li>
+    <li><strong>Google AdMob (Google LLC):</strong> to display advertisements within the app. Data processed: device advertising identifier, approximate location, ad interaction data. Personalised ads are only served with your explicit consent via App Tracking Transparency (iOS) or equivalent</li>
+    <li><strong>Expo (Expo Inc.):</strong> development and update infrastructure. Data processed: device type, OS version, app version for update delivery</li>
   </ul>
+  <p>These third parties process data in accordance with their own privacy policies. We encourage you to review them. Data may be transferred to servers located outside the UK, including the United States. Where this occurs, appropriate safeguards are in place, including Standard Contractual Clauses approved by the UK Information Commissioner's Office.</p>
 
-  <h2>Your Rights</h2>
-  <p>You have the right to:</p>
+  <h2>6. Advertising and Device Identifiers</h2>
+  <p>We use Google AdMob to serve advertisements to non-premium users. AdMob may use device identifiers (such as Apple's IDFA or Android's Advertising ID) and cookies or similar technologies to deliver ads and measure their effectiveness.</p>
+  <p>On iOS, we request your consent via Apple's App Tracking Transparency (ATT) framework before accessing your advertising identifier. If you decline, only non-personalised, contextual ads will be shown. Within the European Economic Area and the UK, we also present a consent request through Google's User Messaging Platform.</p>
+  <p>You can change your tracking preferences at any time:</p>
   <ul>
-    <li>Access your personal data within the app</li>
-    <li>Delete your account and all associated data</li>
-    <li>Opt out of advertisements by upgrading to premium</li>
+    <li>iOS: Settings &gt; Privacy &amp; Security &gt; Tracking</li>
+    <li>Android: Settings &gt; Google &gt; Ads</li>
   </ul>
+  <p>You can also remove all advertisements by upgrading to premium.</p>
 
-  <h2>Children's Privacy</h2>
-  <p>Comida is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+  <h2>7. Data Sharing and Sale</h2>
+  <p>We do not sell, rent, or trade your personal data to any third party.</p>
+  <p>We only share data with the third-party service providers listed in Section 5, solely for the purposes described in this policy, or where required by law or to protect our legal rights. We do not share your personal data for independent marketing by third parties.</p>
 
-  <h2>Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify users of any significant changes through the app or by updating the date at the top of this page.</p>
+  <h2>8. Data Retention</h2>
+  <p>We retain your personal data for as long as your account is active or as needed to provide you with the app's services.</p>
+  <ul>
+    <li>Account data (name, email): retained until you delete your account</li>
+    <li>Saved recipes, meal plans, and shopping lists: retained until you delete them or your account</li>
+    <li>Usage analytics: retained in anonymised form for up to 26 months</li>
+    <li>Crash and diagnostic data: retained by Firebase Crashlytics in accordance with Google's retention policies</li>
+    <li>Advertising data: managed by Google AdMob in accordance with their retention policies</li>
+  </ul>
+  <p>When you delete your account, we will delete or anonymise your personal data within 30 days, except where we are required by law to retain it.</p>
 
-  <h2>Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+  <h2>9. Your Rights Under UK GDPR</h2>
+  <p>Under the UK GDPR and Data Protection Act 2018, you have the following rights:</p>
+  <ul>
+    <li><strong>Right of access:</strong> you can request a copy of the personal data we hold about you</li>
+    <li><strong>Right to rectification:</strong> you can request that we correct inaccurate or incomplete data</li>
+    <li><strong>Right to erasure:</strong> you can request that we delete your personal data ("right to be forgotten")</li>
+    <li><strong>Right to restrict processing:</strong> you can request that we limit how we use your data</li>
+    <li><strong>Right to data portability:</strong> you can request your data in a structured, machine-readable format</li>
+    <li><strong>Right to object:</strong> you can object to processing based on legitimate interests</li>
+    <li><strong>Right to withdraw consent:</strong> where processing is based on consent, you can withdraw it at any time without affecting the lawfulness of prior processing</li>
+  </ul>
+  <p>You can delete your account and all associated data directly in the app at any time, from Profile &gt; Manage Account &gt; Delete Account. This permanently removes your account and the data stored against it.</p>
+  <p>To exercise any of these rights, please contact us at <a href="mailto:comidasupport@gmail.com">comidasupport@gmail.com</a>. We will respond to your request within one month.</p>
+  <p>You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) at <a href="https://ico.org.uk">ico.org.uk</a> if you believe your data protection rights have been violated.</p>
+
+  <h2>10. Data Security</h2>
+  <p>We implement appropriate technical and organisational measures to protect your personal data, including:</p>
+  <ul>
+    <li>Encryption of data in transit (HTTPS/TLS)</li>
+    <li>Secure authentication via Firebase</li>
+    <li>Access controls limiting who can access user data</li>
+    <li>Regular review of security practices</li>
+  </ul>
+  <p>The app also caches your data locally on your device so that it remains available offline. This local copy is removed when you sign out or delete the app.</p>
+  <p>While we take reasonable steps to protect your data, no method of electronic transmission or storage is 100% secure. We cannot guarantee absolute security.</p>
+
+  <h2>11. Children's Privacy</h2>
+  <p>Comida is not directed at children under the age of 13. We do not knowingly collect personal data from children under 13. If we become aware that we have collected data from a child under 13, we will take steps to delete it promptly.</p>
+  <p>If you are a parent or guardian and believe your child has provided us with personal data, please contact us at the email address below.</p>
+
+  <h2>12. Changes to This Privacy Policy</h2>
+  <p>We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or the app's features.</p>
+  <p>When we make material changes, we will notify you by posting the updated policy within the app and updating the effective date at the top of this page. We may also notify you via an in-app message for significant changes.</p>
+  <p>Your continued use of Comida after changes are posted constitutes your acceptance of the updated Privacy Policy.</p>
+
+  <h2>13. Governing Law</h2>
+  <p>This Privacy Policy is governed by and construed in accordance with the laws of England and Wales. Any disputes arising from or relating to this policy shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+
+  <h2>14. Contact Us</h2>
+  <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact us:</p>
   <p><a href="mailto:comidasupport@gmail.com">comidasupport@gmail.com</a></p>
 </body>
 </html>

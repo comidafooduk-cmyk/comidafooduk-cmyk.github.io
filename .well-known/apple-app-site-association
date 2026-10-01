@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "23U5389BR8.com.comida.app"
+        ],
+        "components": [
+          {
+            "/": "/r/*",
+            "comment": "Recipe links"
+          }
+        ]
+      }
+    ]
+  }
+}
